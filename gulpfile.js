@@ -4,7 +4,7 @@ var concat = require('gulp-concat');
 
 
 gulp.task('scripts', function() {
-  return gulp.src(['resources/scripts/js/main.js', 'bower_components/jquery/dist/jquery.min.js', 'bower_components/bootstrap/dist/js/bootstrap.min.js'])
+  return gulp.src(['bower_components/jquery/dist/jquery.min.js', 'bower_components/bootstrap/dist/js/bootstrap.min.js', 'resources/scripts/js/main.js'])
     .pipe(concat('main.js'))
     .pipe(uglify())
     .pipe(gulp.dest('resources/scripts/dist'));
