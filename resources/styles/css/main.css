@@ -12,8 +12,6 @@
     font-size: 40px;
     text-align: center;
     padding: 10px 0;
-    color: #00bcd4;
-    font-family: 'Pacifico', cursive;
 }
 .search-container .wrapper input {
     width: 100%;
@@ -49,6 +47,9 @@
 }
 .user-bul {
   padding: 10px 42px;
+}
+.repo-description p {
+  text-align: justify;
 }
 /* --------------------------
       GENERAL END

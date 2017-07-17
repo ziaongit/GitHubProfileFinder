@@ -18,8 +18,7 @@ $(document).ready(function(){
                 data: {
                 client_id: '44c8eba09b37afa04e77',
                 client_secret: '1b467fa0fc1aab6ad92d1c8dec3e11686ec7f70a',
-                sort: 'created: asc',
-                per_page: 7
+                sort: 'created: asc'
             }
 
             }).done(function(repos){
@@ -28,8 +27,8 @@ $(document).ready(function(){
                     var repoTemplate = '\
                         <div class="well">\
                             <div class="row">\
-                                <div class="col-md-6">\
-                                    <strong>'+repo.name+'</strong>: '+repo.description+'\
+                                <div class="col-md-6 repo-description">\
+                                    <p><strong>'+repo.name+'</strong>: '+repo.description+'</p>\
                                 </div>\
                                 <div class="col-md-4">\
                                     <span class="label label-default">Language: '+repo.forks_count+'</span>\
