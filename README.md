@@ -6,3 +6,5 @@ This is a simple application that fetches and displays Github user profile infor
 2. JavaScript
 3. JQeury
 4. Ajax
+5. GulpJS
+6. NPM/BOWER
